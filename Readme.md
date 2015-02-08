@@ -1,3 +1,3 @@
-# 3D Slant Relief Experiment Documentation
+## 3D Slant Relief ##
 
-Coming Soon!
+A vision experiment in Python and OpenGL 3.3 to measure slant perception on surfaces with varying relief.
