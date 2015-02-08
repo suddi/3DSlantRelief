@@ -1,0 +1,17 @@
+# Leave out all the Blender related files
+relief.blend
+img/blender/
+
+# Any folders that contain participant data
+data/*
+# Example code
+eg/
+info/
+# Compiled *.pyc files
+src/*.pyc
+*.o
+*.exe
+simple.py
+
+# Heightmap images
+img/stimuli/*.jpg

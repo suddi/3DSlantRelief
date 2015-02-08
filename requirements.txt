@@ -1,0 +1,10 @@
+# Required
+numpy>=1.7.1
+PIL>=1.1.7
+pyglet>=1.1.4
+PyOpenGL>=3.1.0a1
+# Tkinter is required but is not provided by pip
+# please install this, before running the experiment
+
+# Not required, but very useful to have
+ipython
