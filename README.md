@@ -3,7 +3,8 @@
 [![license](https://img.shields.io/github/license/suddi/3DSlantRelief.svg?maxAge=2592000)](https://github.com/suddi/3DSlantRelief/blob/master/LICENSE)
 
 A vision experiment engine in Python and OpenGL 3.3 to measure slant perception on surfaces with varying relief.
-Participants would evaluate relief on slanted surfaces with relief rendered from texture and directional lighting.
+
+Participants would evaluate relief on slanted surfaces with relief rendered from texture and directional lighting, and relay their data using an inclinometer.
 
 ## Installation
 
@@ -38,4 +39,5 @@ When launching the experiment under the condition `STIMULI_ONLY = False`, it wil
 
 Once the engine has the participant data necessary, it will render the textured surfaces, see below for example of initial and rendered surfaces:
 
-![Colormap](img/stimuli/colormaps/1.png) ![Rendered Image on Screen](img/demo/sample.png)
+![Colormap](img/stimuli/colormaps/1.png)
+![Rendered Image on Screen](img/demo/sample.png)

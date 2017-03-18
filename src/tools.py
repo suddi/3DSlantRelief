@@ -1,5 +1,5 @@
-from Image import fromarray
-from ImageFilter import Filter
+from PIL.Image import fromarray
+from PIL.ImageFilter import Filter
 
 from math import pi
 

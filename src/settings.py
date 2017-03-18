@@ -1,5 +1,5 @@
 from os import listdir, makedirs
-from os.path import exists, join
+from os.path import exists
 
 from sys import exit
 
@@ -18,7 +18,7 @@ def get_images(directory):
         # If the filename ends with img_type, it is our required images
         if files.endswith('.jpg') or files.endswith('.png'):
             # Join it to the list of stimuli images
-            images.append(join(directory, files))
+            images.append(directory + files)
     return images
 
 
@@ -37,9 +37,9 @@ EXP_NAME = '3D_SLANT_RELIEF'
 
 # Stimuli images directory
 img_dir = '../img/stimuli'
-COLORMAPS = get_images(join(img_dir, 'colormaps'))
-HEIGHTMAPS = get_images(join(img_dir, 'heightmaps'))
-NORMALMAPS = get_images(join(img_dir, 'normalmaps'))
+COLORMAPS = get_images(img_dir + '/colormaps')
+HEIGHTMAPS = get_images(img_dir + '/heightmaps')
+NORMALMAPS = get_images(img_dir + '/normalmaps')
 
 # If the number of stimuli images of each type are not equal
 # We report an error
