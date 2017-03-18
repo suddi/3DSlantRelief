@@ -38,4 +38,5 @@ When launching the experiment under the condition `STIMULI_ONLY = False`, it wil
 
 Once the engine has the participant data necessary, it will render the textured surfaces, see below for example of initial and rendered surfaces:
 
-![Colormap](img/stimuli/colormaps/1.png) ![Rendered Image on Screen](img/demo/sample.png)
+![Colormap](img/stimuli/colormaps/1.png)
+![Rendered Image on Screen](img/demo/sample.png)
