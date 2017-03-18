@@ -1,5 +1,6 @@
 # 3D Slant Relief
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/503fb689d2b5435ab5a40388d6577557)](https://www.codacy.com/app/Suddi/3DSlantRelief?utm_source=github.com&utm_medium=referral&utm_content=suddi/3DSlantRelief&utm_campaign=badger)
 [![license](https://img.shields.io/github/license/suddi/3DSlantRelief.svg?maxAge=2592000)](https://github.com/suddi/3DSlantRelief/blob/master/LICENSE)
 
 A vision experiment engine in Python and OpenGL 3.3 to measure slant perception on surfaces with varying relief. 
