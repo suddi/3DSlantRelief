@@ -4,7 +4,7 @@
 
 A vision experiment engine in Python and OpenGL 3.3 to measure slant perception on surfaces with varying relief.
 
-Participants would evaluate relief on slanted surfaces with relief rendered from texture and directional lighting.
+Participants would evaluate relief on slanted surfaces with relief rendered from texture and directional lighting, and relay their data using an inclinometer.
 
 ## Installation
 
