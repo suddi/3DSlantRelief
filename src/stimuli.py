@@ -1,4 +1,4 @@
-from Image import open as img_open
+from PIL.Image import open as img_open
 
 from pyglet.image import load
 from pyglet.resource import texture
